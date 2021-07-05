@@ -10,7 +10,10 @@
     </small>
   </section>
 
-  <section class="post-summary">
+  <section class="post-summary clearfix">
+    <div class="testr">
+      <%= image_tag post.image.url, class: 'img-thumbnail thumb' if post.image? %>
+    </div>
     <%= post.summary %>
   </section>
 </article>

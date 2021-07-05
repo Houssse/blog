@@ -60,3 +60,7 @@ gem "bootstrap", "~> 5.0"
 gem "jquery-rails", "~> 4.4"
 
 gem "sass", "~> 3.7"
+
+gem "carrierwave", "~> 2.2"
+
+gem "mini_magick", "~> 4.11"
