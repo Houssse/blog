@@ -10,6 +10,9 @@ import "channels"
 
 require("trix")
 require("@rails/actiontext")
+require("pagination")
+require("picturec")
+
 
 Rails.start()
 Turbolinks.start()

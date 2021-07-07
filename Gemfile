@@ -64,3 +64,11 @@ gem "sass", "~> 3.7"
 gem "carrierwave", "~> 2.2"
 
 gem "mini_magick", "~> 4.11"
+
+gem "will_paginate", "~> 3.3"
+
+gem "will_paginate-bootstrap4", "~> 0.2.2"
+
+gem "will_paginate-bootstrap5", "~> 0.2.4"
+
+gem "will_paginate_infinite", "~> 0.1.3"
