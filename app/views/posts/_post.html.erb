@@ -16,4 +16,8 @@
     </div>
     <%= post.summary %>
   </section>
+
+  <section class="footer-summary">
+    <%= raw post.tag.map(&:name).map{ |t| link_to t, tag_path(t), class: 'btn btn-primary btn-sm' }.join(' ') %>
+  </section>
 </article>
